@@ -21,7 +21,7 @@ def new_cluster(request):
             mark_safe(
                 '<h4>No SSH keys found for you in the database.</h4>'
                 'Please upload one below to be able to launch a cluster.'
-                'This is one-time-step.'
+                'This is one-time step.'
             )
         )
         return redirect('keys-new')
